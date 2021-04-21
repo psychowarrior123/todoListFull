@@ -1,0 +1,19 @@
+body {
+    background-image: url(./img/background.png);
+}
+
+label {
+    font-style: italic;
+    display: inline;
+}
+input[type='checkbox'] {
+    margin-right: 4px;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.task {
+    vertical-align: center;
+}
