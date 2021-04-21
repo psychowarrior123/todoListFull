@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Список дел</title>
+		<link rel="stylesheet" href="https://unpkg.com/primitive-ui/dist/css/main.css" />
+		<link rel="stylesheet" href="styles.css" />
+		<script src="jquery/jquery-3.5.0.js"></script>
+	</head>
+	<body>
+		<div class="small-container">
+			<h1>Список дел</h1>
+			<form class="item-form">
+				<input id="item" type="text" placeholder="Ведите задачу" required>
+				<button type="submit">Добавить таску</button>
+			</form>
+			<h2>Задачи</h2>
+			<form class="checklist"></form>
+			<button class="clear-all">Очистить список</button>
+			<button class="clear-done">Удалить выполненные</button>
+		</div>
+		<script src="scripts.js"></script>
+	</body>
+</html>
